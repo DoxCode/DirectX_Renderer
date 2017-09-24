@@ -151,12 +151,7 @@ namespace DirectX_Renderer
 
                     device.DrawText("Overlay text using direct draw with DirectX", font, new SharpDX.Mathematics.Interop.RawRectangleF(5,100,500,30), solidColorBrush);
 
-                object O = Resources.ResourceManager.GetObject("Sin_título_1"); //Return an object from the image chan1.png in the project
-                System.Drawing.Image img = (System.Drawing.Image)O;
-               
-      
-
-                device.DrawBitmap(_bitmap, 1, BitmapInterpolationMode.Linear, new SharpDX.Mathematics.Interop.RawRectangleF(600, 400, 0, 0));
+                    device.DrawBitmap(_bitmap, 1, BitmapInterpolationMode.Linear, new SharpDX.Mathematics.Interop.RawRectangleF(600, 400, 0, 0));
                     //place your rendering things here
 
                     device.EndDraw();
