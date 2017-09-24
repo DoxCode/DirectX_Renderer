@@ -177,8 +177,8 @@ namespace DirectX_Renderer
             {
                 CreateParams pm = base.CreateParams;
                 pm.ExStyle |= 0x80;
-            //    pm.ExStyle |= WS_EX_TOPMOST; // make the form topmost
-             //   pm.ExStyle |= WS_EX_NOACTIVATE; // prevent the form from being activated
+                pm.ExStyle |= WS_EX_TOPMOST; // make the form topmost
+                pm.ExStyle |= WS_EX_NOACTIVATE; // prevent the form from being activated
                 return pm;
             }
         }
