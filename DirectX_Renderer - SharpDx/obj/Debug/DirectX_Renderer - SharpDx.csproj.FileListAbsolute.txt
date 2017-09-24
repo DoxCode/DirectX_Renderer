@@ -1,0 +1,24 @@
+D:\Dox\Creacion\VB\DirectX_Renderer - SharpDx\DirectX_Renderer - SharpDx\bin\Debug\DirectX_Renderer - SharpDx.exe.config
+D:\Dox\Creacion\VB\DirectX_Renderer - SharpDx\DirectX_Renderer - SharpDx\bin\Debug\DirectX_Renderer - SharpDx.exe
+D:\Dox\Creacion\VB\DirectX_Renderer - SharpDx\DirectX_Renderer - SharpDx\bin\Debug\DirectX_Renderer - SharpDx.pdb
+D:\Dox\Creacion\VB\DirectX_Renderer - SharpDx\DirectX_Renderer - SharpDx\bin\Debug\SharpDX.Desktop.dll
+D:\Dox\Creacion\VB\DirectX_Renderer - SharpDx\DirectX_Renderer - SharpDx\bin\Debug\SharpDX.Direct2D1.dll
+D:\Dox\Creacion\VB\DirectX_Renderer - SharpDx\DirectX_Renderer - SharpDx\bin\Debug\SharpDX.Direct3D11.dll
+D:\Dox\Creacion\VB\DirectX_Renderer - SharpDx\DirectX_Renderer - SharpDx\bin\Debug\SharpDX.dll
+D:\Dox\Creacion\VB\DirectX_Renderer - SharpDx\DirectX_Renderer - SharpDx\bin\Debug\SharpDX.DXGI.dll
+D:\Dox\Creacion\VB\DirectX_Renderer - SharpDx\DirectX_Renderer - SharpDx\bin\Debug\SharpDX.Mathematics.dll
+D:\Dox\Creacion\VB\DirectX_Renderer - SharpDx\DirectX_Renderer - SharpDx\bin\Debug\SharpDX.xml
+D:\Dox\Creacion\VB\DirectX_Renderer - SharpDx\DirectX_Renderer - SharpDx\bin\Debug\SharpDX.Desktop.xml
+D:\Dox\Creacion\VB\DirectX_Renderer - SharpDx\DirectX_Renderer - SharpDx\bin\Debug\SharpDX.Direct2D1.xml
+D:\Dox\Creacion\VB\DirectX_Renderer - SharpDx\DirectX_Renderer - SharpDx\bin\Debug\SharpDX.Direct3D11.xml
+D:\Dox\Creacion\VB\DirectX_Renderer - SharpDx\DirectX_Renderer - SharpDx\bin\Debug\SharpDX.DXGI.xml
+D:\Dox\Creacion\VB\DirectX_Renderer - SharpDx\DirectX_Renderer - SharpDx\bin\Debug\SharpDX.Mathematics.xml
+D:\Dox\Creacion\VB\DirectX_Renderer - SharpDx\DirectX_Renderer - SharpDx\obj\Debug\DirectX_Renderer - SharpDx.csprojResolveAssemblyReference.cache
+D:\Dox\Creacion\VB\DirectX_Renderer - SharpDx\DirectX_Renderer - SharpDx\obj\Debug\DirectX_Renderer - SharpDx.exe
+D:\Dox\Creacion\VB\DirectX_Renderer - SharpDx\DirectX_Renderer - SharpDx\obj\Debug\DirectX_Renderer - SharpDx.pdb
+D:\Dox\Creacion\VB\DirectX_Renderer - SharpDx\DirectX_Renderer - SharpDx\obj\Debug\DirectX_Renderer___SharpDx.Overlay.resources
+D:\Dox\Creacion\VB\DirectX_Renderer - SharpDx\DirectX_Renderer - SharpDx\obj\Debug\DirectX_Renderer - SharpDx.csproj.GenerateResource.Cache
+D:\Dox\Creacion\VB\DirectX_Renderer - SharpDx\DirectX_Renderer - SharpDx\bin\Debug\Microsoft.DirectX.Direct3D.dll
+D:\Dox\Creacion\VB\DirectX_Renderer - SharpDx\DirectX_Renderer - SharpDx\bin\Debug\Microsoft.DirectX.dll
+D:\Dox\Creacion\VB\DirectX_Renderer - SharpDx\DirectX_Renderer - SharpDx\bin\Debug\Microsoft.DirectX.xml
+D:\Dox\Creacion\VB\DirectX_Renderer - SharpDx\DirectX_Renderer - SharpDx\bin\Debug\Microsoft.DirectX.Direct3D.xml
