@@ -73,13 +73,22 @@ namespace DirectX_Renderer
             [DllImport("dwmapi.dll")]
             public static extern void DwmExtendFrameIntoClientArea(IntPtr hWnd, ref int[] pMargins);
 
+            [DllImport("user32.dll")]
+            private static extern IntPtr SetActiveWindow(IntPtr handle);
+
             //Styles
             public const UInt32 SWP_NOSIZE = 0x0001;
             public const UInt32 SWP_NOMOVE = 0x0002;
             public const UInt32 TOPMOST_FLAGS = SWP_NOMOVE | SWP_NOSIZE;
             public static IntPtr HWND_TOPMOST = new IntPtr(-1);
+            private const int WS_EX_NOACTIVATE = 0x08000000;
+            private const int WS_EX_TOPMOST = 0x00000008;
+            private const int WM_ACTIVATE = 6;
+            private const int WA_INACTIVE = 0;
+            private const int WM_MOUSEACTIVATE = 0x0021;
+            private const int MA_NOACTIVATEANDEAT = 0x0004;
 
-            public Overlay_SharpDX()
+        public Overlay_SharpDX()
             {
                 this.handle = Handle;
                 int initialStyle = GetWindowLong(this.Handle, -20);
@@ -168,7 +177,34 @@ namespace DirectX_Renderer
             {
                 CreateParams pm = base.CreateParams;
                 pm.ExStyle |= 0x80;
+            //    pm.ExStyle |= WS_EX_TOPMOST; // make the form topmost
+             //   pm.ExStyle |= WS_EX_NOACTIVATE; // prevent the form from being activated
                 return pm;
+            }
+        }
+
+        /// <summary>
+        /// Makes the form unable to gain focus at all time, 
+        /// which should prevent lose focus
+        /// </summary>
+        protected override void WndProc(ref Message m)
+        {
+            if (m.Msg == WM_MOUSEACTIVATE)
+            {
+                m.Result = (IntPtr)MA_NOACTIVATEANDEAT;
+                return;
+            }
+            if (m.Msg == WM_ACTIVATE)
+            {
+                if (((int)m.WParam & 0xFFFF) != WA_INACTIVE)
+                    if (m.LParam != IntPtr.Zero)
+                        SetActiveWindow(m.LParam);
+                    else
+                        SetActiveWindow(IntPtr.Zero);
+            }
+            else
+            {
+                base.WndProc(ref m);
             }
         }
 
