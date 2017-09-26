@@ -71,10 +71,10 @@
     <Compile Include="Launcher.Designer.cs">
       <DependentUpon>Launcher.cs</DependentUpon>
     </Compile>
-    <Compile Include="Overlay_SharpDX.cs">
+    <Compile Include="External Overlay\Overlay_SharpDX.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Overlay_SharpDX.Designer.cs">
+    <Compile Include="External Overlay\Overlay_SharpDX.Designer.cs">
       <DependentUpon>Overlay_SharpDX.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -83,6 +83,13 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Screen_Stream\Screen_capture.cs" />
+    <Compile Include="Screen_Stream\Screen_Stream.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screen_Stream\Screen_Stream.Designer.cs">
+      <DependentUpon>Screen_Stream.cs</DependentUpon>
     </Compile>
     <Compile Include="Utilities.cs" />
   </ItemGroup>
@@ -94,13 +101,16 @@
     <EmbeddedResource Include="Launcher.resx">
       <DependentUpon>Launcher.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Overlay_SharpDX.resx">
+    <EmbeddedResource Include="External Overlay\Overlay_SharpDX.resx">
       <DependentUpon>Overlay_SharpDX.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screen_Stream\Screen_Stream.resx">
+      <DependentUpon>Screen_Stream.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

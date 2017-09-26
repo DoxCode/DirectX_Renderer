@@ -35,8 +35,7 @@ using System;
     using SharpDX.DirectWrite;
     using System.Threading;
     using System.Runtime.InteropServices;
-using System.Resources;
-using DirectX_Renderer.Properties;
+
 
 namespace DirectX_Renderer
 {
