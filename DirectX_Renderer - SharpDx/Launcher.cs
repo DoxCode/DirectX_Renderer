@@ -35,5 +35,12 @@ namespace DirectX_Renderer
             }
 
         }
+
+        private void btn_screen_stream_Click(object sender, EventArgs e)
+        {
+            Screen_Stream.Screen_Stream window = new Screen_Stream.Screen_Stream();
+            window.Show();
+
+        }
     }
 }

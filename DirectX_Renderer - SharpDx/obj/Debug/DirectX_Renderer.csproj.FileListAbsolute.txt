@@ -45,3 +45,4 @@ D:\Dox\Creacion\VB\DirectX_Renderer\DirectX_Renderer - SharpDx\bin\Debug\SharpDX
 D:\Dox\Creacion\VB\DirectX_Renderer\DirectX_Renderer - SharpDx\obj\Debug\DirectX_Renderer.Launcher.resources
 D:\Dox\Creacion\VB\DirectX_Renderer\DirectX_Renderer - SharpDx\obj\Debug\DirectX_Renderer.Overlay_SharpDX.resources
 D:\Dox\Creacion\VB\DirectX_Renderer\DirectX_Renderer - SharpDx\obj\Debug\DirectX_Renderer.Properties.Resources.resources
+D:\Dox\Creacion\VB\DirectX_Renderer\DirectX_Renderer - SharpDx\obj\Debug\DirectX_Renderer.Screen_Stream.Screen_Stream.resources
