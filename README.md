@@ -17,6 +17,15 @@ Example Overlay Text and Image:
 
 ![alt text](https://raw.githubusercontent.com/DoxCode/DirectX_Renderer/594b35de2ea95043fd5799809c7e11300f68fae3/_git_images/Overlay.png)
 
+## Screen Capture - Stream Screen
+Can capture the screen using DirectX technology, this program can render ~70 photos per second (fps) with native quality.
+
+Very useful for example to processing data stream in the screen, searching patterns, automation, pixelHacking etc... or for desktop recorder programs (I don't recommend this last, I'm sure exist better alternatives).
+
+In this example the program update the image of a PictureBox to show the average fps and ms that took.
+
+![alt text](https://raw.githubusercontent.com/DoxCode/DirectX_Renderer/master/_git_images/Stream_Rd.png)
+
 ## License
 License under MIT License.
 
